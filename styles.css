@@ -1,0 +1,81 @@
+body {
+    background-image: url('photo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+header {
+    background-image: url('phonemain.jpg'); 
+     background-size: cover; 
+    padding: 20px 30px;
+    text-align: center;
+}
+
+header nav a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#phones {
+    text-align: center;
+}
+
+.phone-list {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+    padding: 200px; 
+}
+
+.phone {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.phone img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
